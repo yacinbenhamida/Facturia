@@ -20,7 +20,9 @@
             android:backgroundTint="@color/colorPrimaryDark"
             android:text="S'INSCRIRE"
             tools:layout_editor_absoluteX="108dp"
-            tools:layout_editor_absoluteY="225dp" />
+            tools:layout_editor_absoluteY="225dp"
+            android:onClick="btnInscritClick"
+            />
 
         <Button
             android:id="@+id/btnInscrit"
@@ -29,6 +31,7 @@
             android:backgroundTint="@color/colorPrimary"
             android:text="SE CONNECTER"
             tools:layout_editor_absoluteX="108dp"
-            tools:layout_editor_absoluteY="159dp" />
+            tools:layout_editor_absoluteY="159dp"
+            android:onClick="ctnConnectClick"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
