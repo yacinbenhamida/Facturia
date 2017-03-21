@@ -1,17 +1,19 @@
 <resources>
     <string name="app_name">Facturia</string>
-    <string name="title_activity_login">SE CONNECTER</string>
-    <string name="titre_inscrit">INSCRIPTION</string>
+    <string name="title_activity_login">Se connecter</string>
 
     <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Mot de passe</string>
-    <string name="action_sign_in">Sinscrire ou se connecter</string>
-    <string name="action_sign_in_short">Sinscrire</string>
-    <string name="error_invalid_email">Cet email est invalide</string>
-    <string name="error_invalid_password">Ce mot de passe est trop court !</string>
-    <string name="error_incorrect_password">Mot de passe incorrecte</string>
-    <string name="error_field_required">Ce champs est requis</string>
-    <string name="permission_rationale">"La permission daccés aux contacts est requise."
+    <string name="titre_inscrit">INSCRIPTION</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="confirmer_inscription">S\'inscrire</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="seconnecter">CONNEXION</string>
+    <string name="error_invalid_email">L\'email fournit n\'est pas valide</string>
+    <string name="error_invalid_password">Le mot de passe fournit est trés court</string>
+    <string name="error_incorrect_password">Le mot de passe fournit est invalide</string>
+    <string name="error_field_required">Ce champ est requis !</string>
+    <string name="permission_rationale">"L\'acces a vos contacts est requis pour pouvoir completer vos coordonees ."
     </string>
+    <string name="title_activity_inscription">Inscription</string>
 </resources>
