@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,46 +7,30 @@
     android:layout_height="match_parent"
     tools:context="application.facturia.Facturia"
     android:background="@color/colorPrimaryDark"
-    >
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnInscrit"
+        android:layout_width="209dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@android:color/background_light"
+        android:onClick="btnInscritClick"
+        android:text="S'INSCRIRE" />
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="209dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@android:color/background_light"
+        android:onClick="btnConnectClick"
+        android:text="SE CONNECTER"/>
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="159dp"
-        android:layout_height="119dp"
-        app:srcCompat="@mipmap/iconhome"
-        tools:layout_editor_absoluteY="361dp"
-        tools:layout_editor_absoluteX="113dp" />
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@mipmap/iconhome" />
 
-    <LinearLayout
-        android:layout_width="366dp"
-        android:layout_height="361dp"
-        android:gravity="center"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="-21dp"
-        android:weightSum="1">
-
-        <Button
-
-            android:id="@+id/btnConnect"
-            android:layout_width="209dp"
-            android:layout_height="60dp"
-            android:layout_weight="0.10"
-            android:backgroundTint="@android:color/background_light"
-            android:onClick="btnInscritClick"
-            android:text="S'INSCRIRE"
-            tools:layout_editor_absoluteX="108dp"
-            tools:layout_editor_absoluteY="225dp" />
-
-        <Button
-            android:id="@+id/btnInscrit"
-            android:layout_width="211dp"
-            android:layout_height="60dp"
-            android:layout_weight="0.09"
-            android:backgroundTint="@android:color/background_light"
-            android:onClick="ctnConnectClick"
-            android:text="SE CONNECTER"
-            tools:layout_editor_absoluteX="108dp"
-            tools:layout_editor_absoluteY="159dp" />
-    </LinearLayout>
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

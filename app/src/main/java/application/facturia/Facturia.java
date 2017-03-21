@@ -12,12 +12,13 @@ public class Facturia extends AppCompatActivity {
         setContentView(R.layout.activity_facturia);
     }
 
-    public void ctnConnectClick(View view) {
-        Intent intent = new Intent(this,LoginActivity.class);
+    public void btnConnectClick(View view) {
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
 
     public void btnInscritClick(View view) {
-
+        Intent intent = new Intent(this, Inscription.class);
+        startActivity(intent);
     }
 }

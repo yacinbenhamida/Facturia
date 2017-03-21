@@ -16,4 +16,5 @@
     <string name="permission_rationale">"L\'acces a vos contacts est requis pour pouvoir completer vos coordonees ."
     </string>
     <string name="title_activity_inscription">Inscription</string>
+    <string name="hint_mot_de_passe_text">MOT DE PASSE</string>
 </resources>
