@@ -1,17 +1,17 @@
 <resources>
     <string name="app_name">Facturia</string>
-    <string name="title_activity_login">Se connecter</string>
+    <string name="title_activity_login">SE CONNECTER</string>
+    <string name="titre_inscrit">INSCRIPTION</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Sinscrire ou se connecter</string>
+    <string name="action_sign_in_short">Sinscrire</string>
+    <string name="error_invalid_email">Cet email est invalide</string>
+    <string name="error_invalid_password">Ce mot de passe est trop court !</string>
+    <string name="error_incorrect_password">Mot de passe incorrecte</string>
+    <string name="error_field_required">Ce champs est requis</string>
+    <string name="permission_rationale">"La permission daccés aux contacts est requise."
     </string>
 </resources>
