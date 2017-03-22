@@ -11,15 +11,26 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="application.facturia.LoginActivity"
     android:weightSum="1"
-    android:background="@color/colorPrimary">
+    android:background="@drawable/inscrit">
 
     <!-- Login progress -->
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> new
     <ImageView
         android:id="@+id/imageView2"
         android:layout_weight="0.5"
         android:layout_height="0dp"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         app:srcCompat="@mipmap/ic_launcher"/>
+=======
+        android:layout_height="189dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/thumb" />
+>>>>>>> new
 
     <ProgressBar
         android:id="@+id/login_progress"
@@ -57,8 +68,12 @@
                     android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
                     android:hint="@string/hint_mot_de_passe_text"
                     android:imeActionId="@+id/login"
+=======
+                    android:hint="MOT DE PASSE"
+>>>>>>> new
                     android:imeActionLabel="@string/password"
                     android:imeOptions="actionUnspecified"
                     android:inputType="textPassword"

@@ -1,36 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="application.facturia.Facturia"
-    android:background="@color/colorPrimaryDark"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:background="@drawable/bck"
+    >
 
-    <Button
-        android:id="@+id/btnInscrit"
-        android:layout_width="209dp"
-        android:layout_height="60dp"
-        android:backgroundTint="@android:color/background_light"
-        android:onClick="btnInscritClick"
-        android:text="S'INSCRIRE" />
 
-    <Button
-        android:id="@+id/btnConnect"
-        android:layout_width="209dp"
-        android:layout_height="60dp"
-        android:backgroundTint="@android:color/background_light"
-        android:onClick="btnConnectClick"
-        android:text="SE CONNECTER"/>
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="499dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:id="@+id/linearLayout">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="100dp"
-        app:srcCompat="@mipmap/iconhome" />
+        <ImageButton
+            android:id="@+id/btnConnect"
+            android:layout_width="307dp"
+            android:layout_height="81dp"
+            android:onClick="ctnConnectClick"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/btnconnex" />
 
-</LinearLayout>
+        <ImageButton
+            android:id="@+id/btnInscrit"
+            android:layout_width="303dp"
+            android:layout_height="63dp"
+            android:elevation="0dp"
+            android:scaleType="fitXY"
+            android:onClick="btnInscritClick"
+            app:srcCompat="@drawable/btninscrit"
+            android:layout_weight="0.12" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="106dp"
+            android:layout_height="109dp"
+            android:adjustViewBounds="false"
+            android:layout_margin="60dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.514"
+            app:layout_constraintLeft_toRightOf="@+id/linearLayout"
+            app:layout_constraintRight_toLeftOf="@+id/linearLayout"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:layout_constraintVertical_bias="0.055"
+            app:srcCompat="@drawable/homeicon" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

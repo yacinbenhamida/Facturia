@@ -18,7 +18,11 @@ public class Facturia extends AppCompatActivity {
     }
 
     public void btnInscritClick(View view) {
+<<<<<<< HEAD
         Intent intent = new Intent(this, Inscription.class);
+=======
+        Intent intent = new Intent(this,Inscription.class);
+>>>>>>> new
         startActivity(intent);
     }
 }
